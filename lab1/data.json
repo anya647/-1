@@ -1,19 +1,21 @@
 {
-    "flowers": [
+    "university": {
+      "name": "Национальный Технический Университет",
+      "established": 1950,
+      "active": true,
+      "faculties": [
         {
-            "id": 1,
-            "name": "Роза",
-            "poisoned": false
+          "id": 1,
+          "name": "Информатика",
+          "students": 1200,
+          "specializations": ["AI", "Cybersecurity", "Web Development"]
         },
         {
-            "id": 2,
-            "name": "Ромашка",
-            "poisoned": false
-        },
-        {
-            "id": 3,
-            "name": "Подсолнух",
-            "poisoned": false
+          "id": 2,
+          "name": "Инженерия",
+          "students": 850,
+          "specializations": ["Mechanical", "Electrical", "Civil"]
         }
-    ]
-}
+      ]
+    }
+  }
